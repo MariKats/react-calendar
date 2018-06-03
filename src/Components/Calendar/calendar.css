@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.centered {
+  position: fixed;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.calendar-container {
+  height: 360px;
+  width: 500px;
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+}
+
+.month-container td {
+  padding-top: 24px;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.weekday {
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.current-day {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 0.8em;
+    display: inline-block;
+    color: DodgerBlue;
+}
